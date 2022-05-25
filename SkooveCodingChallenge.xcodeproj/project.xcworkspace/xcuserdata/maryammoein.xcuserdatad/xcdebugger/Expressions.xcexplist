@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Main.setSliderProgress():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "progressSliderA1?.maximumValue">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayerA1?.currentTime">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayerA1?.duration">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Main.firstAudioForwardHandler(tapGestureRecognizer:):Player.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Main.setPlayerAudio():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "audioPlayerA1?.duration">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
