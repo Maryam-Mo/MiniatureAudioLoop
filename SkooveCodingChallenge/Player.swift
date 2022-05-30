@@ -13,7 +13,7 @@ enum FirstAudio: String, CaseIterable {
 }
 
 enum SideAudio: String, CaseIterable {
-    case B1, B2, B3
+    case B1 = "B1", B2 = "B2", B3 = "B3"
 }
 
 class Main: UIViewController {

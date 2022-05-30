@@ -3,6 +3,7 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+<<<<<<< HEAD
          contextName = "Main.microLoopHandler(tapGestureRecognizer:):Player.swift">
          <PersistentStrings>
             <PersistentString
@@ -37,6 +38,15 @@
             </PersistentString>
             <PersistentString
                value = "firstAudio.rawValue">
+=======
+         contextName = "Main.setSliderProgress():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "progressSliderA1?.maximumValue">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayerA1?.currentTime">
+>>>>>>> main
             </PersistentString>
             <PersistentString
                value = "audioPlayerA1?.duration">
@@ -44,6 +54,7 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+<<<<<<< HEAD
          contextName = "closure #1 in Main.startTimer():Player.swift">
          <PersistentStrings>
             <PersistentString
@@ -80,5 +91,17 @@
       <ContextState
          contextName = "Main.firstAudioForwardHandler(tapGestureRecognizer:):Player.swift">
       </ContextState>
+=======
+         contextName = "Main.firstAudioForwardHandler(tapGestureRecognizer:):Player.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Main.setPlayerAudio():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "audioPlayerA1?.duration">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+>>>>>>> main
    </ContextStates>
 </VariablesViewState>
