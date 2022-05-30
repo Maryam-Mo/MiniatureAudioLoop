@@ -328,23 +328,23 @@ class Main: UIViewController {
         if isMicroLoop == true {
             let divider: Int = bar / 8
             let remainder = (Int(floor(Double(bar) / 2.0) * 2)) % 8
-            if remainder >= 0 && remainder < 2 {
+            if remainder >= 0 && remainder < 2{
                 isBetween0And2 = true
-            } else if remainder >= 2 && remainder < 4 {
+            } else if remainder >= 2 && remainder < 4{
                 isBetween2And4 = true
-            } else if remainder >= 4 && remainder < 6 {
+            } else if remainder >= 4 && remainder < 6{
                 isBetween4And6 = true
             } else if remainder >= 6 && remainder <= 8{
                 isBetween6And8 = true
             }
             if (isBetween0And2 == true && remainder == 2) {
-                loopSelectedSegment(segment: 0, divider: divider)
+                loopSelectedSegment(segment: 0, divider: divider, seconds: 0)
             } else if isBetween2And4 == true && remainder == 4 {
-                loopSelectedSegment(segment: 2, divider: divider)
+                loopSelectedSegment(segment: 2, divider: divider, seconds: (Int(audioPlayerA1.duration) / 4) * 1)
             } else if isBetween4And6 == true && remainder == 6 {
-                loopSelectedSegment(segment: 4, divider: divider)
-            } else if isBetween4And6 == true && remainder == 8 {
-                loopSelectedSegment(segment: 6, divider: divider)
+                loopSelectedSegment(segment: 4, divider: divider, seconds: (Int(audioPlayerA1.duration) / 4) * 2)
+            } else if isBetween6And8 == true && divider != 0 && remainder == 0 {
+                loopSelectedSegment(segment: 6, divider: divider, seconds: (Int(audioPlayerA1.duration) / 4) * 3)
             }
         } else {
             isBetween0And2 = false
@@ -354,9 +354,9 @@ class Main: UIViewController {
         }
     }
     
-    private func loopSelectedSegment(segment: Int, divider: Int) {
-        audioPlayerA1.currentTime = TimeInterval(segment)
-        audioPlayerA2.currentTime = TimeInterval(segment)
+    private func loopSelectedSegment(segment: Int, divider: Int, seconds: Int) {
+        audioPlayerA1.currentTime = TimeInterval(seconds)
+        audioPlayerA2.currentTime = TimeInterval(seconds)
         bar = divider == 0 ? segment : segment + (divider * 8)
         sixteenths = 0
         beat = 0

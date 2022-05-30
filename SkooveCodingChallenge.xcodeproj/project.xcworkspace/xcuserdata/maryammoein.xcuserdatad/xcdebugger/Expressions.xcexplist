@@ -3,105 +3,24 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-<<<<<<< HEAD
-         contextName = "Main.microLoopHandler(tapGestureRecognizer:):Player.swift">
+         contextName = "Main.handleMicroLoop():Player.swift">
          <PersistentStrings>
             <PersistentString
-               value = "isMicroLoop">
+               value = "isBetween2And4">
+            </PersistentString>
+            <PersistentString
+               value = "remainder &gt;= 6 &amp;&amp; remainder &lt;= 8 &amp;&amp; isBetween0And2 &amp;&amp; !isBetween2And4 &amp;&amp; !isBetween4And6">
+            </PersistentString>
+            <PersistentString
+               value = "isBetween4And6">
+            </PersistentString>
+            <PersistentString
+               value = "isBetween0And2">
+            </PersistentString>
+            <PersistentString
+               value = "remainder &gt;= 6 &amp;&amp; remainder &lt;= 8">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
-      <ContextState
-         contextName = "Main.sixteenths.didset:Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "MTIText">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Main.audioPlayerDidFinishPlaying(_:successfully:):Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "isFirstForwardPressed">
-            </PersistentString>
-            <PersistentString
-               value = "isSideForwardPressed">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Main.setPlayerAudio():Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "Float(audioPlayerA1.duration)">
-            </PersistentString>
-            <PersistentString
-               value = "firstAudio.rawValue">
-=======
-         contextName = "Main.setSliderProgress():Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "progressSliderA1?.maximumValue">
-            </PersistentString>
-            <PersistentString
-               value = "audioPlayerA1?.currentTime">
->>>>>>> main
-            </PersistentString>
-            <PersistentString
-               value = "audioPlayerA1?.duration">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-<<<<<<< HEAD
-         contextName = "closure #1 in Main.startTimer():Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "(round(Double(self?.bar ?? 1)) / 2)">
-            </PersistentString>
-            <PersistentString
-               value = "self?.bar">
-            </PersistentString>
-            <PersistentString
-               value = "floor(Double(self?.bar ?? 1) / 2.0)">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Main.setSliderProgress():Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "isSideForwardPressed">
-            </PersistentString>
-            <PersistentString
-               value = "progressSliderA1?.maximumValue">
-            </PersistentString>
-            <PersistentString
-               value = "audioPlayerA1?.duration">
-            </PersistentString>
-            <PersistentString
-               value = "audioPlayerA1?.currentTime">
-            </PersistentString>
-            <PersistentString
-               value = "isFirstForwardPressed">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Main.firstAudioForwardHandler(tapGestureRecognizer:):Player.swift">
-      </ContextState>
-=======
-         contextName = "Main.firstAudioForwardHandler(tapGestureRecognizer:):Player.swift">
-      </ContextState>
-      <ContextState
-         contextName = "Main.setPlayerAudio():Player.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "audioPlayerA1?.duration">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
->>>>>>> main
    </ContextStates>
 </VariablesViewState>
