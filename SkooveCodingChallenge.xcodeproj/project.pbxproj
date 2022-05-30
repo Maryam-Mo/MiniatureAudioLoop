@@ -76,12 +76,6 @@
 		1EF988582837633400D3F3C3 = {
 			isa = PBXGroup;
 			children = (
-				1EF988882837ED5800D3F3C3 /* A1.wav */,
-				1EF988872837ED5800D3F3C3 /* A2.wav */,
-				1EF988862837ED5800D3F3C3 /* A3.wav */,
-				1EF988892837ED5800D3F3C3 /* B1.wav */,
-				1EF988852837ED5800D3F3C3 /* B2.wav */,
-				1EF9888A2837ED5900D3F3C3 /* B3.wav */,
 				1EF988632837633400D3F3C3 /* SkooveCodingChallenge */,
 				1EF988982844B4EB00D3F3C3 /* SkooveCodingChallengeTests */,
 				1EF988622837633400D3F3C3 /* Products */,
@@ -100,11 +94,11 @@
 		1EF988632837633400D3F3C3 /* SkooveCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1EF988A028451B7800D3F3C3 /* Audio */,
 				1EF9887A28377F0200D3F3C3 /* HelperClasses */,
 				1EF988782837642D00D3F3C3 /* Controllers */,
 				1EF988642837633400D3F3C3 /* AppDelegate.swift */,
 				1EF988662837633400D3F3C3 /* SceneDelegate.swift */,
-				1EF988682837633400D3F3C3 /* Player.swift */,
 				1EF9886A2837633400D3F3C3 /* Main.storyboard */,
 				1EF9886D2837633700D3F3C3 /* Assets.xcassets */,
 				1EF9886F2837633700D3F3C3 /* LaunchScreen.storyboard */,
@@ -116,6 +110,7 @@
 		1EF988782837642D00D3F3C3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1EF988682837633400D3F3C3 /* Player.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,7 +132,19 @@
 			path = SkooveCodingChallengeTests;
 			sourceTree = "<group>";
 		};
-
+		1EF988A028451B7800D3F3C3 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1EF988882837ED5800D3F3C3 /* A1.wav */,
+				1EF988872837ED5800D3F3C3 /* A2.wav */,
+				1EF988862837ED5800D3F3C3 /* A3.wav */,
+				1EF988892837ED5800D3F3C3 /* B1.wav */,
+				1EF988852837ED5800D3F3C3 /* B2.wav */,
+				1EF9888A2837ED5900D3F3C3 /* B3.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,7 +183,6 @@
 			productReference = 1EF988972844B4EB00D3F3C3 /* SkooveCodingChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,7 +200,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 1EF988602837633400D3F3C3;
 					};
-
 				};
 			};
 			buildConfigurationList = 1EF9885C2837633400D3F3C3 /* Build configuration list for PBXProject "SkooveCodingChallenge" */;
@@ -212,7 +217,6 @@
 			targets = (
 				1EF988602837633400D3F3C3 /* SkooveCodingChallenge */,
 				1EF988962844B4EB00D3F3C3 /* SkooveCodingChallengeTests */,
-
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +245,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
