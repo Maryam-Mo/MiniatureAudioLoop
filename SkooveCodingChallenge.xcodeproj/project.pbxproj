@@ -9,25 +9,61 @@
 /* Begin PBXBuildFile section */
 		1EF988652837633400D3F3C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF988642837633400D3F3C3 /* AppDelegate.swift */; };
 		1EF988672837633400D3F3C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF988662837633400D3F3C3 /* SceneDelegate.swift */; };
-		1EF988692837633400D3F3C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF988682837633400D3F3C3 /* ViewController.swift */; };
+		1EF988692837633400D3F3C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF988682837633400D3F3C3 /* Player.swift */; };
 		1EF9886C2837633400D3F3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9886A2837633400D3F3C3 /* Main.storyboard */; };
 		1EF9886E2837633700D3F3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9886D2837633700D3F3C3 /* Assets.xcassets */; };
 		1EF988712837633700D3F3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9886F2837633700D3F3C3 /* LaunchScreen.storyboard */; };
+		1EF9887C28377F6000D3F3C3 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9887B28377F6000D3F3C3 /* CustomSlider.swift */; };
+		1EF9888B2837ED5900D3F3C3 /* B2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF988852837ED5800D3F3C3 /* B2.wav */; };
+		1EF9888C2837ED5900D3F3C3 /* A3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF988862837ED5800D3F3C3 /* A3.wav */; };
+		1EF9888D2837ED5900D3F3C3 /* A2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF988872837ED5800D3F3C3 /* A2.wav */; };
+		1EF9888E2837ED5900D3F3C3 /* A1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF988882837ED5800D3F3C3 /* A1.wav */; };
+		1EF9888F2837ED5900D3F3C3 /* B1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF988892837ED5800D3F3C3 /* B1.wav */; };
+		1EF988902837ED5900D3F3C3 /* B3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9888A2837ED5900D3F3C3 /* B3.wav */; };
+		1EF98892283D54A100D3F3C3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF98891283D54A100D3F3C3 /* Utility.swift */; };
+		1EF9889A2844B4EB00D3F3C3 /* SkooveCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF988992844B4EB00D3F3C3 /* SkooveCodingChallengeTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EF9889B2844B4EB00D3F3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF988592837633400D3F3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF988602837633400D3F3C3;
+			remoteInfo = SkooveCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1EF988612837633400D3F3C3 /* SkooveCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkooveCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF988642837633400D3F3C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF988662837633400D3F3C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EF988682837633400D3F3C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EF988682837633400D3F3C3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		1EF9886B2837633400D3F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EF9886D2837633700D3F3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EF988702837633700D3F3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EF988722837633700D3F3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF9887B28377F6000D3F3C3 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		1EF988852837ED5800D3F3C3 /* B2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B2.wav; sourceTree = "<group>"; };
+		1EF988862837ED5800D3F3C3 /* A3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A3.wav; sourceTree = "<group>"; };
+		1EF988872837ED5800D3F3C3 /* A2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A2.wav; sourceTree = "<group>"; };
+		1EF988882837ED5800D3F3C3 /* A1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A1.wav; sourceTree = "<group>"; };
+		1EF988892837ED5800D3F3C3 /* B1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B1.wav; sourceTree = "<group>"; };
+		1EF9888A2837ED5900D3F3C3 /* B3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B3.wav; sourceTree = "<group>"; };
+		1EF98891283D54A100D3F3C3 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1EF988972844B4EB00D3F3C3 /* SkooveCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkooveCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF988992844B4EB00D3F3C3 /* SkooveCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkooveCodingChallengeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1EF9885E2837633400D3F3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF988942844B4EB00D3F3C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +76,14 @@
 		1EF988582837633400D3F3C3 = {
 			isa = PBXGroup;
 			children = (
+				1EF988882837ED5800D3F3C3 /* A1.wav */,
+				1EF988872837ED5800D3F3C3 /* A2.wav */,
+				1EF988862837ED5800D3F3C3 /* A3.wav */,
+				1EF988892837ED5800D3F3C3 /* B1.wav */,
+				1EF988852837ED5800D3F3C3 /* B2.wav */,
+				1EF9888A2837ED5900D3F3C3 /* B3.wav */,
 				1EF988632837633400D3F3C3 /* SkooveCodingChallenge */,
+				1EF988982844B4EB00D3F3C3 /* SkooveCodingChallengeTests */,
 				1EF988622837633400D3F3C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				1EF988612837633400D3F3C3 /* SkooveCodingChallenge.app */,
+				1EF988972844B4EB00D3F3C3 /* SkooveCodingChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +100,41 @@
 		1EF988632837633400D3F3C3 /* SkooveCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1EF9887A28377F0200D3F3C3 /* HelperClasses */,
+				1EF988782837642D00D3F3C3 /* Controllers */,
 				1EF988642837633400D3F3C3 /* AppDelegate.swift */,
 				1EF988662837633400D3F3C3 /* SceneDelegate.swift */,
-				1EF988682837633400D3F3C3 /* ViewController.swift */,
+				1EF988682837633400D3F3C3 /* Player.swift */,
 				1EF9886A2837633400D3F3C3 /* Main.storyboard */,
 				1EF9886D2837633700D3F3C3 /* Assets.xcassets */,
 				1EF9886F2837633700D3F3C3 /* LaunchScreen.storyboard */,
 				1EF988722837633700D3F3C3 /* Info.plist */,
 			);
 			path = SkooveCodingChallenge;
+			sourceTree = "<group>";
+		};
+		1EF988782837642D00D3F3C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1EF9887A28377F0200D3F3C3 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9887B28377F6000D3F3C3 /* CustomSlider.swift */,
+				1EF98891283D54A100D3F3C3 /* Utility.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		1EF988982844B4EB00D3F3C3 /* SkooveCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EF988992844B4EB00D3F3C3 /* SkooveCodingChallengeTests.swift */,
+			);
+			path = SkooveCodingChallengeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +157,24 @@
 			productReference = 1EF988612837633400D3F3C3 /* SkooveCodingChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1EF988962844B4EB00D3F3C3 /* SkooveCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF9889D2844B4EB00D3F3C3 /* Build configuration list for PBXNativeTarget "SkooveCodingChallengeTests" */;
+			buildPhases = (
+				1EF988932844B4EB00D3F3C3 /* Sources */,
+				1EF988942844B4EB00D3F3C3 /* Frameworks */,
+				1EF988952844B4EB00D3F3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF9889C2844B4EB00D3F3C3 /* PBXTargetDependency */,
+			);
+			name = SkooveCodingChallengeTests;
+			productName = SkooveCodingChallengeTests;
+			productReference = 1EF988972844B4EB00D3F3C3 /* SkooveCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +187,10 @@
 				TargetAttributes = {
 					1EF988602837633400D3F3C3 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					1EF988962844B4EB00D3F3C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1EF988602837633400D3F3C3;
 					};
 				};
 			};
@@ -116,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				1EF988602837633400D3F3C3 /* SkooveCodingChallenge */,
+				1EF988962844B4EB00D3F3C3 /* SkooveCodingChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +218,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF9888B2837ED5900D3F3C3 /* B2.wav in Resources */,
+				1EF9888C2837ED5900D3F3C3 /* A3.wav in Resources */,
+				1EF9888D2837ED5900D3F3C3 /* A2.wav in Resources */,
+				1EF9888E2837ED5900D3F3C3 /* A1.wav in Resources */,
+				1EF9888F2837ED5900D3F3C3 /* B1.wav in Resources */,
+				1EF988902837ED5900D3F3C3 /* B3.wav in Resources */,
 				1EF988712837633700D3F3C3 /* LaunchScreen.storyboard in Resources */,
 				1EF9886E2837633700D3F3C3 /* Assets.xcassets in Resources */,
 				1EF9886C2837633400D3F3C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF988952844B4EB00D3F3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +244,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF988692837633400D3F3C3 /* ViewController.swift in Sources */,
+				1EF98892283D54A100D3F3C3 /* Utility.swift in Sources */,
+				1EF988692837633400D3F3C3 /* Player.swift in Sources */,
 				1EF988652837633400D3F3C3 /* AppDelegate.swift in Sources */,
 				1EF988672837633400D3F3C3 /* SceneDelegate.swift in Sources */,
+				1EF9887C28377F6000D3F3C3 /* CustomSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF988932844B4EB00D3F3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF9889A2844B4EB00D3F3C3 /* SkooveCodingChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EF9889C2844B4EB00D3F3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF988602837633400D3F3C3 /* SkooveCodingChallenge */;
+			targetProxy = 1EF9889B2844B4EB00D3F3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1EF9886A2837633400D3F3C3 /* Main.storyboard */ = {
@@ -217,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +419,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +431,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +448,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +460,45 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1EF9889E2844B4EB00D3F3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L79P3Y5SQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.SkooveCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkooveCodingChallenge.app/SkooveCodingChallenge";
+			};
+			name = Debug;
+		};
+		1EF9889F2844B4EB00D3F3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5L79P3Y5SQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.SkooveCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkooveCodingChallenge.app/SkooveCodingChallenge";
 			};
 			name = Release;
 		};
@@ -355,6 +519,15 @@
 			buildConfigurations = (
 				1EF988762837633700D3F3C3 /* Debug */,
 				1EF988772837633700D3F3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF9889D2844B4EB00D3F3C3 /* Build configuration list for PBXNativeTarget "SkooveCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF9889E2844B4EB00D3F3C3 /* Debug */,
+				1EF9889F2844B4EB00D3F3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
