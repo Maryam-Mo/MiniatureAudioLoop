@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Main.microLoopHandler(tapGestureRecognizer:):Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isMicroLoop">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Main.sixteenths.didset:Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "MTIText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Main.audioPlayerDidFinishPlaying(_:successfully:):Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isFirstForwardPressed">
+            </PersistentString>
+            <PersistentString
+               value = "isSideForwardPressed">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Main.setPlayerAudio():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Float(audioPlayerA1.duration)">
+            </PersistentString>
+            <PersistentString
+               value = "firstAudio.rawValue">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayerA1?.duration">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Main.startTimer():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(round(Double(self?.bar ?? 1)) / 2)">
+            </PersistentString>
+            <PersistentString
+               value = "self?.bar">
+            </PersistentString>
+            <PersistentString
+               value = "floor(Double(self?.bar ?? 1) / 2.0)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Main.setSliderProgress():Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isSideForwardPressed">
+            </PersistentString>
+            <PersistentString
+               value = "progressSliderA1?.maximumValue">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayerA1?.duration">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayerA1?.currentTime">
+            </PersistentString>
+            <PersistentString
+               value = "isFirstForwardPressed">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Main.firstAudioForwardHandler(tapGestureRecognizer:):Player.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
